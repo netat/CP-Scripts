@@ -1,5 +1,13 @@
 #!/bin/bash
 
+#This script is used when cloning an object in a firewall rulebase.
+#Both old and new objects must be created in dashboard before the script is used.
+#The script will analyze all rules and in any place the old object exists it
+#will insert the new object in the same column.
+#It will create a new nat rule at the bottom of the nat policy that is a duplicate of 
+#the original rule only with the new object instead
+
+
 #I am not sourcing CP.sh  the mdsenv should be set before executing
 #source /etc/profile.d/CP.sh
 
