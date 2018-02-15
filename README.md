@@ -1,4 +1,4 @@
- # CP-Scripts
+ # Check Point Scripts
   
   
 This is a random collection of Check Point scripts that I have written to help with management  
